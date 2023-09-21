@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <link href="Style.css" rel="stylesheet">
+    <link href="StyleCallContacts.css" rel="stylesheet">
     <link rel="icon" href="planet.png" type="image/png">
     <title>Лабораторная 2 Фомин 221-361</title>
 </head>
@@ -15,12 +15,55 @@
                 <li><a href="https://exname123.github.io/WebSiteLab1/"> <b>
                             <h2>Моя страница</h2>
                         </b></a></li>
-
             </ul>
         </nav>
     </header>
     <main>
+        <div class="divForm">
+            <form method="post" action="https://httpbin.org/post">
+                <p> ФИО </p>
+                <p>
+                    <input type="text" name="Name" />
+                </p>
+                <p> Email</p>
+                <p>
+                    <input type="text" name="login" />
+                </p>
+                <p>
+                    Как вы попали сюда?
+                </p>
+                <p>
+                    <input type="radio" name="radio1" /> Соц. сети
+                </p>
+                <p>
+                    <input type="radio" name="radio2" /> Телевизор
+                </p>
+                <p>
+                    <input type="radio" name="radio3" /> Журнал
+                </p>
+                <p>
+                    <select name="selector">
+                        <option disabled selected> Выбрать </option>
+                        <option value="1"> Выразить благодарность </option>
+                        <option value="2"> Предложение по улучшению </option>
+                    </select>
+                </p>
+                <p>
+                    <textarea cols="20" rows="20" name="textareaM">
 
+                </textarea>
+                </p>
+                <p>
+                    <input type="file">
+                </p>
+                <p>
+                    <input type="checkbox"> Согласен с обработкой данных
+                </p>
+                <p>
+                    <button type="submit">Отправить</button>
+                </p>
+            </form>
+        </div>
     </main>
     <footer>
         <div class="footer_title">
