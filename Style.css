@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 3vh;
+}
+
+ul {
+    margin-left: 0px;
+}
+
+ul li,
+ul li h2 {
+    display: inline;
+}
+
+nav {
+    margin: 15px;
+}
+
+body {
+    background-size: cover;
+    background-image: url(picture_background.jpg);
+}
+form{
+    border: 3px solid  rgba(40, 42, 173);
+    border-style: inset;
+    padding-top: 20px;
+    height: 200px;
+    background-color: slateblue;
+}
+form p{
+    margin-left: 20px;
+    margin-right: 25px;
+    font-size: 14pt;
+    color: #fff;
+    padding-bottom: 10px;
+}
+form p input{
+    font-weight: bold;
+    font-size: 12pt;
+    border-radius: 3px;
+    height: 20px;
+}
+.imageLabel{
+    display: inline;
+    width: 20px;
+    height: 20px;
+}
+form p button{
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border-color: azure;
+    border-radius: 5px;
+    font-size: 12pt;
+    float: right;
+    /* margin-left: 70px; */
+}
+form p button:hover{
+    background-color: aquamarine;
+    animation-duration: 0.5ms;
+    color: blueviolet;
+}
+.divForm{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+main,
+body {
+    height: 100vh;
+}
+
+header,
+footer {
+    position: absolute;
+    background-color: rgba(40, 42, 173);
+    width: 100%;
+    color: white;
+}
+
+footer {
+    bottom: 0;
+    padding: 15px 0;
+    background: rgba(58, 60, 230);
+    color: #fff;
+}
+
+address a {
+    color: aliceblue;
+    margin-right: 2%;
+    text-decoration: none;
+}
+
+.footer_title,
+footer h3,
+footer div address p,
+address {
+    display: inline;
+}
+
+.footer_title {
+    margin-left: 20px;
+}
+
+footer div address p {
+    padding-top: 1%;
+    margin-left: 20px;
+}
+
+footer address {
+    padding-left: 1%;
+}
