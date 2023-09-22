@@ -90,6 +90,7 @@ form p button:hover {
 }
 
 .divForm {
+    float: none;
     margin-left: 40%;
     margin-top: 100px;
     position: absolute;
