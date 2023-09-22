@@ -95,7 +95,7 @@ form p button:hover {
     position: absolute;
     margin-bottom: 100px;
     /* position: relative; */
-    width: fit-content;
+    /* width: fit-content; */
     height: fit-content;
     /* height: min-content;
     width:min-content;
